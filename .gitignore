@@ -1,0 +1,19 @@
+# Dataset (downloaded automatically on first run)
+data/
+
+# Weights & Biases offline logs (regenerated each run)
+wandb/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Console logs
+*.log
+
+# Keep only the final trained model, not every checkpoint from the sweep
+checkpoints/*
+!checkpoints/best_final.pth
